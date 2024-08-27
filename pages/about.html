@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styleAbout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Raleway:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<title>Documento XHTML</title>
+    <style>
+  
+.cardAbout{
+    margin-top: 4% ;
+display: flex;
+  justify-content: center;
+  width: 100%; /* Ocupa todo el ancho disponible */
+
+}
+
+
+.card {
+    width: 100%; /* Hace que la tarjeta ocupe todo el ancho de su contenedor */
+    border: none; /* Opcional: Elimina el borde para un estilo más limpio */
+}
+
+.card .row {
+    margin: 0; /* Elimina márgenes internos */
+    width: 100%; /* Asegura que la fila ocupe todo el ancho de la tarjeta */
+}
+
+
+.btn{
+    background-color: #292929;
+    
+}
+.btn:hover {
+    background-color: #363636 ;
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+
+/* //////// */
+
+.container {
+            max-width: 1200px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Espacio entre las imágenes */
+            flex-wrap: nowrap; /* Asegura que las imágenes estén en una sola fila */
+        }
+        .container {
+            position: relative;
+            width: 100%;
+        }
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .container:hover .image {
+            opacity: 0.3;
+        }
+        .container:hover .middle {
+            opacity: 1;
+        }
+        .text {
+            background-color: #5393a4;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+/* //////// */
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.tituloAbout{
+    background-color: #f6f6f6;
+margin-top: 3% ;
+display: flex;
+  justify-content: center;
+  padding: 50px 0; /* Aumenta el espacio interno (padding) */
+    min-height: 200px; /* Establece una altura mínima para hacerla más grande */
+}
+
+.aboutStaff{
+ display: grid;
+ place-items: center;
+}
+
+.nuestraFilosofia{
+    display: grid;
+ place-items: center;
+ padding-bottom: 50px;
+}
+    
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.contenedorConoceTitulo{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.conteinerFooter{
+    display: grid;
+ place-items: center;
+ margin-top: 50px ;
+ padding: 70px;
+ background-color: black;
+ color: white;
+
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="\images\alcomix.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      
+          <a class="navbar-brand" href="/index.html">Alcomix</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+              <a class="nav-link active roboto-black-italic" aria-current="page" href="/index.html">Inicio</a>
+              <a class="nav-link roboto-regular" href="about.html">Quiénes somos</a>
+              <a class="nav-link roboto-regular" href="mezclas.html">Mezclas</a>
+              <a class="nav-link roboto-regular" href="contact.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<main>
+    
+<section class="tituloAbout">
+    <div class="container">
+        <h2 class="font-weight-bold font-italic">Quienes somos</h2>
+        <hr class="my-4"> 
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sobre nosotros</li>
+            </ol>
+        </nav>
+    </div>
+
+</section>
+<section class="cardAbout">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-8  d-flex">
+                <div class="card-body">
+                    <h5 class="card-title">Nuestros Socios:</h5>
+                    <p class="card-text">EventMasters: Líderes en la organización de eventos y bodas. <br>
+            
+                        PartyTime Supplies: Proveedores de decoraciones y suministros para fiestas. <br>
+                        
+                        GourmetCatering Co.: Servicio de catering de alta calidad para eventos</p>
+                    
+                        <h6>Obten nuestros servicios</h6>
+                        <form action="personalizar.html">
+                            <button type="submit" class="btn btn-outline-light">Empezar</button>
+                          </form>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-8  d-flex">
+                <div class="card-body">
+                    <h5 class="card-title">Sobre nosotros</h5>
+                    <p class="card-text">
+                        Alcomix es una empresa dedicada a ofrecer la mejor experiencia en sangrías personalizadas. Nuestra misión es brindar una opción conveniente y de alta calidad para que puedas disfrutar de una sangría única en cualquier evento especial.
+
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                
+                <img src="\images\vino gris 3.jpg" class="img-fluid rounded-start h-100" alt="Imagen de Alcomix" style="object-fit: cover;">
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+          
+
+   
+   
+
+    <section class="aboutStaff"> 
+        <div class="contenedorConoceTitulo pt-5 ">
+            <h3 class="roboto-black-italic">Conoce nuestro equipo</h3>
+            
+            </div>
+           <div class="presentacionText  col-md-8 d-flex text-center pt-2">
+            <p>En Alcomix, nuestro equipo es el corazón de nuestra empresa. Cada miembro contribuye con dedicación y pasión para ofrecerte sangrías personalizadas de la mejor calidad. Te presentamos a las personas detrás de nuestro éxito.
+
+            </p>
+           </div> 
+       
+          
+    </section>
+    
+    <div class="container pt-5">
+        <div class="image-container">
+            <div class="container">
+                <img src="\images\staff1.png" alt="Avatar" class="image">
+                <div class="middle">
+                    <div class="text">
+                        <h4 class="roboto-regular">María Rodríguez - Maestra Mezcladora</h4>
+                
+                    </div>
+  
+                </div>
+            </div>
+            <div class="container">
+                <img src="\images\staff2.png" alt="Avatar" class="image">
+                <div class="middle">
+                    <div class="text">
+                        <h4 class="roboto-regular">Carlos Gómez - Director de Logística</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="\images\staff3.png" alt="Avatar" class="image">
+                <div class="middle">
+                    <div class="text">
+                        <h4 class="roboto-regular">Juan Pérez - Fundador y CEO</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="\images\staff4.png" alt="Avatar" class="image">
+                <div class="middle">
+                    <div class="text">
+                        <h4 class="roboto-regular">Laura Fernández - Gerente, Servicio al Cliente</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="nuestraFilosofia"> 
+        <div class="contenedorFiloTitulo pt-5 ">
+            <h3 class="roboto-black-italic">Nuestra filosofía</h3>
+            
+            </div>
+           <div class="presentacionTextFilo  col-md-8 d-flex text-center pt-2">
+            <p>En Alcomix, creemos en la calidad, la personalización y la satisfacción del cliente. Utilizamos solo los mejores ingredientes frescos y trabajamos arduamente para garantizar que cada mezcla de sangría sea un reflejo de nuestra dedicación a la excelencia.
+
+            </p>
+           </div> 
+       
+          
+    </section>
+        
+</main>
+
+<footer>
+    <div class="conteinerFooter">
+<div class="footerTitle mb-4">
+    <h5 class="roboto-bold " > Alcomix</h5>
+</div>
+        <div class="footerText">
+            <p>¿Tienes alguna pregunta o necesitas ayuda con tu pedido? ¡Estamos aquí para ayudarte! <br> Contacta con Nosotros para más información. <br> ¡Haz de tu próxima celebración algo inolvidable con Alcomix!</p>
+        </div>
+     
+    </div>
+    
+</footer>
+
+</body>
+</html>
